@@ -2,7 +2,7 @@
     <header>
         <h1>{{title}}</h1>
         <Button @btn-click="$emit('toggle-add-task')"  :text="showAddTask ? 'Close' : 'Add Task'" 
-        :color="showAddTask ? 'orange' : 'green'"/>
+        :color="showAddTask ? 'tomato' : 'seagreen'"/>
     </header>
 </template>
 

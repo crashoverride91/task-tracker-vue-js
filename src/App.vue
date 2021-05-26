@@ -49,21 +49,21 @@ export default {
     this.tasks = [
       {
         id:1,
-        text:'docto appointment',
+        text:'Clean the bathroom',
         day: 'March 1st at 2:30pm',
         reminder:true,
 
       },
         {
         id:2,
-        text:'school appointment',
+        text:'Doctor Appointment',
         day: 'March 5st at 9:30pm',
         reminder:false,
 
       },
         {
         id:3,
-        text:'doghouse appointment',
+        text:'Buying food',
         day: 'March 8st at 4:30pm',
         reminder:true,
 
@@ -82,6 +82,8 @@ export default {
 }
 body {
   font-family: 'Poppins', sans-serif;
+  
+
 }
 .container {
   max-width: 500px;
@@ -89,6 +91,8 @@ body {
   overflow: auto;
   min-height: 300px;
   border: 1px solid steelblue;
+  background: rgb(2,238,105);
+  background: linear-gradient(180deg, rgba(2,238,105,1) 19%, rgba(0,184,114,0.7455357142857143) 100%);
   padding: 30px;
   border-radius: 5px;
 }
